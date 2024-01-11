@@ -1,5 +1,7 @@
 > <h1 align="center">Güncel VOI Key Yenileme</h1>
 
+arkadaşlar voi de ilk kurduğunuzdan 70-75 gün sonra biten bir Participation key var. Bu bittiğinde oylamalara katılamıyorsunuz. Yani ödül alamıyorsunuz.  Gruba arattığınızda ise çıkan şey artık geçerli değil. Şimdi güncelini paylaşıyorum. 
+
 getaddress() {
   if [ "$addr" == "" ]; then echo -ne "\nNote: Completing this will remember your address until you log out. "; else echo -ne "\nNote: Using previously entered address. "; fi; echo -e "To forget the address, press Ctrl+C and enter the command:\n\tunset addr\n";
   count=0; while ! (echo "$addr" | grep -E "^[A-Z2-7]{58}$" > /dev/null); do
